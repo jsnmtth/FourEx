@@ -1,0 +1,38 @@
+FourEx is a 4X Strategy Game in the spirit of Master of Orion, It is designed to be extensible, Cross-Platform, and Simple. It is an attempt to bring the fun of MOO to the modern platform, not to create a new gaming experience. It is currently in an early alpha state (more like a bunch of tests that amount to a mess).
+
+
+Dependancies:
+		ClanLib22Core
+		ClanLib22App
+		ClanLib22Display
+		ClanLib22GL
+		libz
+		freetype
+		(others)
+
+Compiling:
+		Currently the Code is in a Code::Blocks Project and can be compiled on GNU/Linux Systems.
+
+Instructions for compiling on ubuntu 10.10:
+			 Install Dependancies:
+			 $ sudo apt-get install codeblocks g++ zlib1g-dev libpcre3-dev libmikmod2-dev libvorbis-dev libpng12-dev libjpeg62-dev libfreetype6-dev libasound2-dev libao-dev libfontconfig1-dev libsqlite3-dev freeglut3-dev
+
+
+Download Clanlib:
+		 In Browser: http://clanlib.org/download/releases-2.0/ClanLib-2.2.5.tgz
+		 In Terminal:
+		 $ cd <path_to_clanlib>
+		 $ tar -xzf ClanLib-2.2.5.tgz
+		 $ cd ClanLib-2.2.5
+		 $ ./configure
+         $ make
+         $ sudo make install
+		 $ echo "/usr/local/lib"|sudo tee -a /etc/ld.so.conf.d/local.conf
+		 $ sudo ldconfig
+
+
+Code::Blocks
+		Run Codeblocks
+		Select the GNU Compiler
+		Open the Project File (FourEx.cbp)
+		Select Build->Build (CTRL+F9)
