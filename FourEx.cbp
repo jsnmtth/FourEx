@@ -52,7 +52,9 @@
 			<Add library="X11" />
 			<Add directory="/usr/local/lib" />
 		</Linker>
-		<Unit filename="main.cpp" />
+		<Unit filename="LICENSE" />
+		<Unit filename="README" />
+		<Unit filename="src/main.cpp" />
 		<Unit filename="../../../../../usr/local/lib/libclan22Core.so" />
 		<Extensions>
 			<code_completion />
