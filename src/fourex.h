@@ -15,33 +15,45 @@ Copyright (C) 2011  Jason Ramsey <jramsey@openkettle.com>
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#include "fourex.h"
+
+#pragma once
 #include "include.h"
-#include "main.h"
 
 
+class fourEx
+{
+private:
+    bool quit;
+    bool menu;
+    bool pause;
+    bool ingame;
 
-    int Program::main(const std::vector<CL_String> &args)
-    {
-        CL_SetupCore setup_core;
-        CL_SetupDisplay setup_display;
-        CL_SetupGL setup_gl;
+    CL_DisplayWindow window;
+    CL_GraphicContext gc;
+    CL_InputDevice keyboard;
+public:
 
-        try
-        {
-            fourEx game;
-            game.run();
-        }
-        catch (CL_Exception &exception)
-        {
-            // Create a console window for text-output if not available
-            CL_ConsoleWindow console("Console", 80, 160);
-            CL_Console::write_line("Error: " + exception.get_message_and_stack_trace());
 
-            console.display_close_message();
+    void run();
 
-            return -1;
-        }
-        return 0;
-    }
-CL_ClanApplication app(&Program::main);
+    void clearscreen(CL_GraphicContext &gc);
+
+    void openingscreen(CL_GraphicContext &gc);
+
+    void drawtext(CL_GraphicContext &gc,std::string text,
+                  int posx=0,
+                  int posy=0,
+                  int fontheight=40,
+                  std::string fontname="tahoma"
+                 );
+
+    void drawmenu(CL_GraphicContext &gc);
+
+    bool areyousure(CL_GraphicContext &gc,std::string message="Are you Sure? Y/N");
+
+    void updateFrames(CL_GraphicContext &gc);
+
+    void on_window_close();
+public:
+    int windowsize[2];
+};

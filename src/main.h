@@ -15,33 +15,16 @@ Copyright (C) 2011  Jason Ramsey <jramsey@openkettle.com>
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#include "fourex.h"
+
+#pragma once
+
 #include "include.h"
-#include "main.h"
+
+class Program
+{
+public:
+    static int main(const std::vector<CL_String> &args);
+
+};
 
 
-
-    int Program::main(const std::vector<CL_String> &args)
-    {
-        CL_SetupCore setup_core;
-        CL_SetupDisplay setup_display;
-        CL_SetupGL setup_gl;
-
-        try
-        {
-            fourEx game;
-            game.run();
-        }
-        catch (CL_Exception &exception)
-        {
-            // Create a console window for text-output if not available
-            CL_ConsoleWindow console("Console", 80, 160);
-            CL_Console::write_line("Error: " + exception.get_message_and_stack_trace());
-
-            console.display_close_message();
-
-            return -1;
-        }
-        return 0;
-    }
-CL_ClanApplication app(&Program::main);

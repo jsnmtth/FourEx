@@ -5,7 +5,7 @@
 	<ClanLib/gl.h>
 	<ClanLib/application.h>
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/core.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/core.h
 	<windows.h>
 	"Core/Text/string_types.h"
 	"Core/Text/file_logger.h"
@@ -154,316 +154,316 @@
 	"Core/Math/line_segment.h"
 	"Core/core_iostream.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_types.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_types.h
 	<string>
 	"string_ref8.h"
 	"string_ref16.h"
 	"string8.h"
 	"string16.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_ref8.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_ref8.h
 	"../api_core.h"
 	"string_data8.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/api_core.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/api_core.h
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_data8.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_data8.h
 	"../api_core.h"
 	<string>
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_ref16.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_ref16.h
 	"../api_core.h"
 	"string_data16.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_data16.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_data16.h
 	"../api_core.h"
 	<string>
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string8.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string8.h
 	"../api_core.h"
 	"string_data8.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string16.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string16.h
 	"../api_core.h"
 	"string_data16.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/file_logger.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/file_logger.h
 	"../api_core.h"
 	"logger.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/logger.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/logger.h
 	"../api_core.h"
 	"string_format.h"
 	"string_help.h"
 	"../System/mutex.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_format.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_format.h
 	"../api_core.h"
 	<vector>
 	"string_types.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_help.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_help.h
 	"../api_core.h"
 	"string_types.h"
 	<vector>
 	<vcclr.h>
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/mutex.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/mutex.h
 	"../api_core.h"
 	<windows.h>
 	<pthread.h>
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/console.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/console.h
 	"../api_core.h"
 	"string_format.h"
 	"string_help.h"
 	<conio.h>
 	<unistd.h>
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/console_logger.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/console_logger.h
 	"../api_core.h"
 	"logger.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_allocator.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/string_allocator.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	"string_types.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/sharedptr.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/sharedptr.h
 	"../api_core.h"
 	"system.h"
 	<cstring>
 	"interlocked_variable.h"
 	"mutex.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/system.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/system.h
 	"../api_core.h"
 	"../Text/string_types.h"
 	"../IOData/datatypes.h"
 	<vector>
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/datatypes.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/datatypes.h
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/interlocked_variable.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/interlocked_variable.h
 	"../api_core.h"
 	"system.h"
 	<windows.h>
 	"../IOData/datatypes.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/utf8_reader.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Text/utf8_reader.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	"string_types.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/databuffer.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/databuffer.h
 	"../api_core.h"
 	"sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/block_allocator.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/block_allocator.h
 	"../api_core.h"
 	"sharedptr.h"
 	"system.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/console_window.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/console_window.h
 	"../api_core.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/datetime.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/datetime.h
 	"../api_core.h"
 	"../IOData/datatypes.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/disposable_object.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/disposable_object.h
 	"../api_core.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/event.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/event.h
 	"../api_core.h"
 	"sharedptr.h"
 	"mutex.h"
 	<vector>
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/event_provider.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/event_provider.h
 	"../api_core.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/exception.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/exception.h
 	"../api_core.h"
 	"../Text/string_types.h"
 	<vector>
 	<stdexcept>
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/runnable.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/runnable.h
 	"../api_core.h"
 	<typeinfo>
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/service.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/service.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	"../Signals/signal_v1.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/signal_v1.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/signal_v1.h
 	"slot.h"
 	"signals_impl.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/slot.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/slot.h
 	"../api_core.h"
 	"signals_impl.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/signals_impl.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/signals_impl.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	<vector>
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/setup_core.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/setup_core.h
 	"../api_core.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/thread.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/thread.h
 	"../api_core.h"
 	"sharedptr.h"
 	"runnable.h"
 	"exception.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/thread_local_storage.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/thread_local_storage.h
 	"../api_core.h"
 	"sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/autoptr.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/autoptr.h
 	"../api_core.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/weakptr.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/weakptr.h
 	"../api_core.h"
 	"sharedptr.h"
 	"interlocked_variable.h"
 	"mutex.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/command_line.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/command_line.h
 	"../api_core.h"
 	"../Text/string_types.h"
 	<vector>
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/memory_pool.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/memory_pool.h
 	"../api_core.h"
 	<new>
 	<memory>
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/static_memory_pool.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/static_memory_pool.h
 	"../api_core.h"
 	"memory_pool.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/fixed_memory_pool.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/fixed_memory_pool.h
 	"static_memory_pool.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/keep_alive.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/keep_alive.h
 	"../api_core.h"
 	"../Signals/callback_2.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_2.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_2.h
 	"../System/exception.h"
 	"../System/sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/timer.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/timer.h
 	"../api_core.h"
 	"sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/registry_key.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/System/registry_key.h
 	"../api_core.h"
 	"databuffer.h"
 	<vector>
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_0.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_0.h
 	"../System/exception.h"
 	"../System/sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_1.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_1.h
 	"../System/exception.h"
 	"../System/sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_3.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_3.h
 	"../System/exception.h"
 	"../System/sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_4.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_4.h
 	"../System/exception.h"
 	"../System/sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_5.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_5.h
 	"../System/exception.h"
 	"../System/sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_v0.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_v0.h
 	"../System/exception.h"
 	"../System/sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_v1.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_v1.h
 	"../System/exception.h"
 	"../System/sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_v2.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_v2.h
 	"../System/exception.h"
 	"../System/sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_v3.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_v3.h
 	"../System/exception.h"
 	"../System/sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_v4.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_v4.h
 	"../System/exception.h"
 	"../System/sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_v5.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/callback_v5.h
 	"../System/exception.h"
 	"../System/sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/signal_v0.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/signal_v0.h
 	"../api_core.h"
 	"slot.h"
 	"signals_impl.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/signal_v2.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/signal_v2.h
 	"slot.h"
 	"signals_impl.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/signal_v3.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/signal_v3.h
 	"slot.h"
 	"signals_impl.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/signal_v4.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/signal_v4.h
 	"slot.h"
 	"signals_impl.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/signal_v5.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/signal_v5.h
 	"slot.h"
 	"signals_impl.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/virtual_function_0.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/virtual_function_0.h
 	"../api_core.h"
 	"../System/exception.h"
 	"slot.h"
 	"signals_impl.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/virtual_function_1.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/virtual_function_1.h
 	"../System/exception.h"
 	"slot.h"
 	"signals_impl.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/virtual_function_2.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/virtual_function_2.h
 	"../System/exception.h"
 	"slot.h"
 	"signals_impl.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/virtual_function_3.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/virtual_function_3.h
 	"../System/exception.h"
 	"slot.h"
 	"signals_impl.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/virtual_function_4.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/virtual_function_4.h
 	"../System/exception.h"
 	"slot.h"
 	"signals_impl.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/virtual_function_5.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/virtual_function_5.h
 	"../System/exception.h"
 	"slot.h"
 	"signals_impl.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/slot_container.h
+1294095606 /usr/local/include/ClanLib-2.2/ClanLib/Core/Signals/slot_container.h
 	"../api_core.h"
 	"slot.h"
 	"signal_v0.h"
@@ -474,267 +474,267 @@
 	"signal_v5.h"
 	<vector>
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Resources/resource.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Resources/resource.h
 	"../api_core.h"
 	"../Resources/resource_manager.h"
 	"../System/sharedptr.h"
 	"../Text/string_types.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Resources/resource_manager.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Resources/resource_manager.h
 	"../api_core.h"
 	"../Resources/resource.h"
 	"../System/weakptr.h"
 	"../IOData/virtual_directory.h"
 	<vector>
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/virtual_directory.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/virtual_directory.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	"file.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/file.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/file.h
 	"../api_core.h"
 	"iodevice.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/iodevice.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/iodevice.h
 	"../api_core.h"
 	"datatypes.h"
 	"../System/sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Resources/resource_data_session.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Resources/resource_data_session.h
 	"../api_core.h"
 	"resource.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_processing_instruction.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_processing_instruction.h
 	"../api_core.h"
 	"dom_node.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_node.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_node.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	"dom_string.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_string.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_string.h
 	"../Text/string_types.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_entity_reference.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_entity_reference.h
 	"../api_core.h"
 	"dom_node.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_notation.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_notation.h
 	"../api_core.h"
 	"dom_node.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_exception.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_exception.h
 	"../api_core.h"
 	"../System/exception.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_cdata_section.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_cdata_section.h
 	"../api_core.h"
 	"dom_text.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_text.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_text.h
 	"../api_core.h"
 	"dom_character_data.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_character_data.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_character_data.h
 	"../api_core.h"
 	"dom_node.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_document_fragment.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_document_fragment.h
 	"../api_core.h"
 	"dom_node.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_comment.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_comment.h
 	"../api_core.h"
 	"dom_character_data.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_attr.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_attr.h
 	"../api_core.h"
 	"dom_node.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_entity.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_entity.h
 	"../api_core.h"
 	"dom_node.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_document_type.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_document_type.h
 	"../api_core.h"
 	"dom_node.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_document.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_document.h
 	"../api_core.h"
 	"dom_node.h"
 	<vector>
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_implementation.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_implementation.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	"dom_string.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_node_list.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_node_list.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	"dom_string.h"
 	<vector>
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_named_node_map.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_named_node_map.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	"dom_string.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_element.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/dom_element.h
 	"../api_core.h"
 	"dom_node.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/xml_tokenizer.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/xml_tokenizer.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/xml_writer.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/xml_writer.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/xml_token.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/xml_token.h
 	"../api_core.h"
 	"../Text/string_types.h"
 	<vector>
 	<utility>
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/xpath_evaluator.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/xpath_evaluator.h
 	"../System/sharedptr.h"
 	"xpath_object.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/xpath_object.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Core/XML/xpath_object.h
 	"../System/sharedptr.h"
 	<vector>
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/CSS/css_document.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/CSS/css_document.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	<vector>
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/CSS/css_property.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/CSS/css_property.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/CSS/css_tokenizer.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/CSS/css_tokenizer.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/CSS/css_token.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/CSS/css_token.h
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/access_control_list.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/access_control_list.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	"security_identifier.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/security_identifier.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/security_identifier.h
 	"../api_core.h"
 	"../System/databuffer.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/file_help.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/file_help.h
 	"../api_core.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/path_help.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/path_help.h
 	"../api_core.h"
 	<vector>
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/pipe_connection.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/pipe_connection.h
 	"../api_core.h"
 	"iodevice.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/pipe_listen.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/pipe_listen.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/security_descriptor.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/security_descriptor.h
 	"../api_core.h"
 	"security_identifier.h"
 	"access_control_list.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/directory.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/directory.h
 	"../api_core.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/cl_endian.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/cl_endian.h
 	"../api_core.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/directory_scanner.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/directory_scanner.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	"../Text/string_types.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/virtual_file_system.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/virtual_file_system.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	"file.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/virtual_file_source.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/virtual_file_source.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	"file.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/iodevice_memory.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/iodevice_memory.h
 	"../api_core.h"
 	"iodevice.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/virtual_directory_listing.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/IOData/virtual_directory_listing.h
 	"../System/sharedptr.h"
 	"../Text/string_types.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Zip/zip_archive.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/Zip/zip_archive.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	"zip_file_entry.h"
 	<vector>
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Zip/zip_file_entry.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/Zip/zip_file_entry.h
 	"../api_core.h"
 	"../Text/string_types.h"
 	"../System/sharedptr.h"
 	"../IOData/datatypes.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Zip/zip_writer.h
-	"../api_core.h"
-	"../Text/string_types.h"
-	"../System/sharedptr.h"
-	"../IOData/datatypes.h"
-	<vector>
-
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Zip/zip_reader.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/Zip/zip_writer.h
 	"../api_core.h"
 	"../Text/string_types.h"
 	"../System/sharedptr.h"
 	"../IOData/datatypes.h"
 	<vector>
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/angle.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/Zip/zip_reader.h
+	"../api_core.h"
+	"../Text/string_types.h"
+	"../System/sharedptr.h"
+	"../IOData/datatypes.h"
+	<vector>
+
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/angle.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/base64_encoder.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/base64_encoder.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/base64_decoder.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/base64_decoder.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/bezier_curve.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/bezier_curve.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	<vector>
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/circle.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/circle.h
 	"point.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/point.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/point.h
 	"../api_core.h"
 	"vec2.h"
 	"angle.h"
 	"origin.h"
 	"size.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/vec2.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/vec2.h
 	"../api_core.h"
 	"cl_math.h"
 	"vec1.h"
@@ -742,93 +742,93 @@
 	"vec4.h"
 	"origin.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/cl_math.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/cl_math.h
 	"../api_core.h"
 	<cmath>
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/vec1.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/vec1.h
 	"../api_core.h"
 	"cl_math.h"
 	"vec2.h"
 	"vec3.h"
 	"vec4.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/vec3.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/vec3.h
 	"../api_core.h"
 	"cl_math.h"
 	"vec1.h"
 	"vec2.h"
 	"vec4.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/vec4.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/vec4.h
 	"../api_core.h"
 	"cl_math.h"
 	"vec1.h"
 	"vec2.h"
 	"vec3.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/origin.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/origin.h
 	"../api_core.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/size.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/size.h
 	"../api_core.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/delauney_triangulator.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/delauney_triangulator.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	<vector>
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/ear_clip_triangulator.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/ear_clip_triangulator.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	"../Math/point.h"
 	<vector>
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/ear_clip_result.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/ear_clip_result.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	<vector>
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/line_math.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/line_math.h
 	"../api_core.h"
 	"point.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/quaternion.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/quaternion.h
 	"../api_core.h"
 	"vec3.h"
 	"angle.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/mat2.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/mat2.h
 	"../api_core.h"
 	"../IOData/datatypes.h"
 	"mat3.h"
 	"mat4.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/mat3.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/mat3.h
 	"../api_core.h"
 	"mat2.h"
 	"mat4.h"
 	"../IOData/datatypes.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/mat4.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/mat4.h
 	"../api_core.h"
 	"../IOData/datatypes.h"
 	"mat2.h"
 	"mat3.h"
 	"angle.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/outline_triangulator.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/outline_triangulator.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/pointset_math.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/pointset_math.h
 	"../api_core.h"
 	<vector>
 	"point.h"
 	"circle.h"
 	"rect.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/rect.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/rect.h
 	"../api_core.h"
 	"vec2.h"
 	"size.h"
@@ -836,40 +836,40 @@
 	"origin.h"
 	"cl_math.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/quad.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/quad.h
 	"../api_core.h"
 	"rect.h"
 	"size.h"
 	"point.h"
 	"origin.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/rect_packer.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/rect_packer.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 	"rect.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/sha1.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/sha1.h
 	"../api_core.h"
 	"../System/sharedptr.h"
 
-1294014936 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/triangle_math.h
+1294095605 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/triangle_math.h
 	"../api_core.h"
 	"vec3.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/line.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/line.h
 	"../api_core.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/line_ray.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/line_ray.h
 	"../api_core.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/line_segment.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/Math/line_segment.h
 	"../api_core.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/Core/core_iostream.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/Core/core_iostream.h
 	<iosfwd>
 	<iostream>
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/display.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/display.h
 	"Display/display.h"
 	"Display/display_target.h"
 	"Display/setup_display.h"
@@ -963,46 +963,46 @@
 	"Display/Window/input_state.h"
 	"Display/Window/keys.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/display.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/display.h
 	"api_display.h"
 	"../Core/Text/string_types.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/api_display.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/api_display.h
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/display_target.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/display_target.h
 	"api_display.h"
 	"../Core/System/sharedptr.h"
 	"../Core/System/weakptr.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/setup_display.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/setup_display.h
 	"api_display.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/screen_info.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/screen_info.h
 	"api_display.h"
 	"../Core/System/sharedptr.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/color.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/color.h
 	"../api_display.h"
 	"../../Core/Text/string_types.h"
 	<vector>
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/color_hsv.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/color_hsv.h
 	"../api_display.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/color_hsv2.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/color_hsv2.h
 	"color_hsv.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/color_hsl.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/color_hsl.h
 	"../api_display.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/color_hsl2.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/color_hsl2.h
 	"color_hsv.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/draw.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/draw.h
 	"../api_display.h"
 	"../Render/graphic_context.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/graphic_context.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/graphic_context.h
 	"../api_display.h"
 	"../2D/color.h"
 	"../../Core/System/sharedptr.h"
@@ -1013,20 +1013,20 @@
 	"../../Core/Signals/signal_v0.h"
 	"frame_buffer.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/primitives_array.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/primitives_array.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../../Core/Math/vec3.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/frame_buffer.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/frame_buffer.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/gradient.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/gradient.h
 	"../api_display.h"
 	"color.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/image.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/image.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../../Core/Resources/resource_data_session.h"
@@ -1034,18 +1034,18 @@
 	"color.h"
 	"../Image/image_import_description.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/image_import_description.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/image_import_description.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../../Core/Signals/callback_1.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/rounded_rect.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/rounded_rect.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../../Core/Math/origin.h"
 	"../Render/graphic_context.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/sprite.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/sprite.h
 	"../api_display.h"
 	"../../Core/Text/string_types.h"
 	"../../Core/System/sharedptr.h"
@@ -1058,11 +1058,11 @@
 	"../Image/image_import_description.h"
 	"color.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/blend_mode.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/blend_mode.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/sprite_description.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/sprite_description.h
 	"../api_display.h"
 	"../../Core/Text/string_types.h"
 	"../Render/graphic_context.h"
@@ -1070,7 +1070,7 @@
 	"../Image/pixel_buffer.h"
 	<vector>
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/texture.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/texture.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../../Core/Text/string_types.h"
@@ -1081,12 +1081,12 @@
 	"../Image/image_import_description.h"
 	"../Image/texture_format.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/compare_function.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/compare_function.h
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/texture_format.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/texture_format.h
 	"../api_display.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/pixel_buffer.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/pixel_buffer.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"pixel_format.h"
@@ -1094,28 +1094,28 @@
 	"texture_format.h"
 	"buffer_usage.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/pixel_format.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/pixel_format.h
 	"../api_display.h"
 	"texture_format.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/buffer_usage.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/buffer_usage.h
 	"../api_display.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/subtexture.h
-	"../api_display.h"
-	"../../Core/System/sharedptr.h"
-
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/texture_group.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/subtexture.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/span_layout.h
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/texture_group.h
+	"../api_display.h"
+	"../../Core/System/sharedptr.h"
+
+1294095607 /usr/local/include/ClanLib-2.2/ClanLib/Display/2D/span_layout.h
 	"../../Core/System/sharedptr.h"
 	"../../Core/Math/rect.h"
 	"../../Core/Math/size.h"
 	"color.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/collision_outline.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/collision_outline.h
 	"../api_display.h"
 	<vector>
 	"contour.h"
@@ -1127,206 +1127,206 @@
 	"../../Core/Math/circle.h"
 	"../../Core/IOData/virtual_directory.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/contour.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/contour.h
 	"../api_display.h"
 	<vector>
 	"outline_circle.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/outline_circle.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/outline_circle.h
 	"../api_display.h"
 	"../../Core/Math/point.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/outline_accuracy.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/outline_accuracy.h
 	"../api_display.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/outline_math.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/outline_math.h
 	"../api_display.h"
 	<vector>
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/outline_provider.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/outline_provider.h
 	"../api_display.h"
 	"contour.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/outline_provider_bitmap.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/outline_provider_bitmap.h
 	"../api_display.h"
 	"outline_provider.h"
 	"outline_accuracy.h"
 	<vector>
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/outline_provider_file.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Collision/outline_provider_file.h
 	"../api_display.h"
 	"outline_provider.h"
 	"../../Core/Text/string_types.h"
 	"../../Core/IOData/virtual_directory.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Font/font.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Font/font.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../Render/graphic_context.h"
 	"../Image/pixel_buffer.h"
 	"font_description.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Font/font_description.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Font/font_description.h
 	"../api_display.h"
 	"../../Core/Text/string_types.h"
 	"../../Core/System/sharedptr.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Font/font_system.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Font/font_system.h
 	"../api_display.h"
 	"font.h"
 	"../2D/subtexture.h"
 	"../Render/texture.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Font/font_sprite.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Font/font_sprite.h
 	"../api_display.h"
 	"font.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Font/font_metrics.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Font/font_metrics.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Font/font_freetype.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Font/font_freetype.h
 	"../api_display.h"
 	"font.h"
 	"../2D/subtexture.h"
 	"../Render/texture.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Font/font_vector.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Font/font_vector.h
 	"../api_display.h"
 	"font.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/palette.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/palette.h
 	"../api_display.h"
 	"../2D/color.h"
 	<cstring>
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/pixel_buffer_help.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/pixel_buffer_help.h
 	"../api_display.h"
 	"pixel_buffer.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/icon_set.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Image/icon_set.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/jpeg_compressor.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/jpeg_compressor.h
 	"../api_display.h"
 	"../Image/pixel_buffer.h"
 	"../../Core/Text/string_types.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/jpeg_decompressor.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/jpeg_decompressor.h
 	"../api_display.h"
 	"../Image/pixel_buffer.h"
 	"../../Core/Text/string_types.h"
 	<vector>
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/jpeg_provider.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/jpeg_provider.h
 	"../api_display.h"
 	"../Image/pixel_buffer.h"
 	"../../Core/Text/string_types.h"
 	"../../Core/IOData/virtual_directory.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/pcx_provider.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/pcx_provider.h
 	"../api_display.h"
 	"../Image/pixel_buffer.h"
 	"../../Core/Text/string_types.h"
 	"../../Core/IOData/virtual_directory.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/png_provider.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/png_provider.h
 	"../api_display.h"
 	"../Image/pixel_buffer.h"
 	"../../Core/Text/string_types.h"
 	"../../Core/IOData/virtual_directory.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/provider_factory.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/provider_factory.h
 	"../api_display.h"
 	<map>
 	"../../Core/Text/string_types.h"
 	"../../Core/IOData/virtual_directory.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/provider_type.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/provider_type.h
 	"../api_display.h"
 	"../../Core/Text/string_types.h"
 	"../Image/pixel_buffer.h"
 	"../../Core/IOData/virtual_directory.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/provider_type_register.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/provider_type_register.h
 	"../api_display.h"
 	"../../Core/IOData/virtual_directory.h"
 	"provider_type.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/targa_provider.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/ImageProviders/targa_provider.h
 	"../api_display.h"
 	"../Image/pixel_buffer.h"
 	"../../Core/Text/string_types.h"
 	"../../Core/IOData/virtual_directory.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/buffer_control.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/buffer_control.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"compare_function.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/element_array_buffer.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/element_array_buffer.h
 	"../../Core/System/sharedptr.h"
 	"graphic_context.h"
 	"../api_display.h"
 	"vertex_array_buffer.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/vertex_array_buffer.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/vertex_array_buffer.h
 	"../../Core/System/sharedptr.h"
 	"graphic_context.h"
 	"../api_display.h"
 	"../Image/buffer_usage.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/occlusion_query.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/occlusion_query.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"graphic_context.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/pen.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/pen.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/polygon_rasterizer.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/polygon_rasterizer.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../Image/pixel_buffer.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/primitives_array_builder.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/primitives_array_builder.h
 	"vertex_array_buffer.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/program_attribute.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/program_attribute.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../../Core/Text/string_types.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/program_object.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/program_object.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../../Core/Text/string_types.h"
 	"../../Core/IOData/virtual_directory.h"
 	"graphic_context.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/program_uniform.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/program_uniform.h
 	"../../Core/System/sharedptr.h"
 	"../api_display.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/render_batcher.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/render_batcher.h
 	"../api_display.h"
 	"../../Core/Math/mat4.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/render_buffer.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/render_buffer.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"texture.h"
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/shader_object.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/shader_object.h
 	"../../Core/System/sharedptr.h"
 	"../../Core/IOData/virtual_directory.h"
 	"graphic_context.h"
 	"../api_display.h"
 	<vector>
 
-1294014937 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/shared_gc_data.h
+1294095608 /usr/local/include/ClanLib-2.2/ClanLib/Display/Render/shared_gc_data.h
 	"../api_display.h"
 	"../../Core/IOData/virtual_directory.h"
 	"../../Core/Signals/signal_v0.h"
@@ -1335,15 +1335,15 @@
 	<vector>
 	<map>
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/cursor_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/cursor_provider.h
 	"../api_display.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/display_target_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/display_target_provider.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../../Core/Text/string_types.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/display_window_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/display_window_provider.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../../Core/System/weakptr.h"
@@ -1355,7 +1355,7 @@
 	"../Window/display_window.h"
 	<X11/Xlib.h>
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/display_window.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/display_window.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../../Core/System/weakptr.h"
@@ -1368,22 +1368,22 @@
 	"../display_target.h"
 	<X11/Xlib.h>
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/element_array_buffer_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/element_array_buffer_provider.h
 	"../Render/element_array_buffer.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/pixel_buffer_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/pixel_buffer_provider.h
 	"../Render/element_array_buffer.h"
 	"../Image/pixel_buffer.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/font_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/font_provider.h
 	"../api_display.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/frame_buffer_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/frame_buffer_provider.h
 	"../api_display.h"
 	"../Render/frame_buffer.h"
 	<vector>
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/graphic_context_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/graphic_context_provider.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../../Core/Text/string_types.h"
@@ -1392,7 +1392,7 @@
 	"../Render/texture.h"
 	"../../Core/Math/mat4.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/input_device_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/input_device_provider.h
 	"../api_display.h"
 	"../Window/input_device.h"
 	"../../Core/System/disposable_object.h"
@@ -1400,7 +1400,7 @@
 	"../../Core/Text/string_types.h"
 	"../../Core/Signals/signal_v1.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/input_device.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/input_device.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../../Core/System/weakptr.h"
@@ -1408,62 +1408,62 @@
 	"../../Core/Signals/signal_v2.h"
 	"../../Core/Math/point.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/occlusion_query_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/occlusion_query_provider.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/program_object_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/program_object_provider.h
 	<vector>
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/render_buffer_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/render_buffer_provider.h
 	"../api_display.h"
 	"../Render/texture.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/render_window_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/render_window_provider.h
 	"../api_display.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/shader_object_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/shader_object_provider.h
 	"shader_object_provider.h"
 	"../Render/shader_object.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/texture_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/texture_provider.h
 	"../Render/texture.h"
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../../Core/Text/string_types.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/vertex_array_buffer_provider.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/TargetProviders/vertex_array_buffer_provider.h
 	"../Render/vertex_array_buffer.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/cursor.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/cursor.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 	"../display_target.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/display_window_description.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/display_window_description.h
 	"../api_display.h"
 	"../../Core/Text/string_types.h"
 	"../../Core/System/sharedptr.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/input_context.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/input_context.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/input_event.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/input_event.h
 	"../api_display.h"
 	"input_device.h"
 	"../../Core/Math/point.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/input_state.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/input_state.h
 	"../api_display.h"
 	"../../Core/System/sharedptr.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/keys.h
+1294095609 /usr/local/include/ClanLib-2.2/ClanLib/Display/Window/keys.h
 	<windows.h>
 	<Carbon/carbon.h>
 	<X11/keysym.h>
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/gl.h
+1294095610 /usr/local/include/ClanLib-2.2/ClanLib/gl.h
 	"GL/opengl.h"
 	"GL/opengl_defines.h"
 	"GL/opengl_target.h"
@@ -1472,7 +1472,7 @@
 	"GL/setup_gl.h"
 	"GL/opengl_graphic_context.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/GL/opengl.h
+1294095610 /usr/local/include/ClanLib-2.2/ClanLib/GL/opengl.h
 	"api_gl.h"
 	"opengl_defines.h"
 	<utility>
@@ -1480,43 +1480,67 @@
 	"../Display/Image/pixel_format.h"
 	"../Display/Render/texture.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/GL/api_gl.h
+1294095610 /usr/local/include/ClanLib-2.2/ClanLib/GL/api_gl.h
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/GL/opengl_defines.h
+1294095610 /usr/local/include/ClanLib-2.2/ClanLib/GL/opengl_defines.h
 	"api_gl.h"
 	"../Core/IOData/datatypes.h"
 	<cstddef>
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/GL/opengl_target.h
+1294095610 /usr/local/include/ClanLib-2.2/ClanLib/GL/opengl_target.h
 	"api_gl.h"
 	"../Display/display_target.h"
 	"../Core/System/sharedptr.h"
 	"../Core/Text/string_types.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/GL/opengl_window_description.h
+1294095610 /usr/local/include/ClanLib-2.2/ClanLib/GL/opengl_window_description.h
 	"api_gl.h"
 	"../Core/System/sharedptr.h"
 	"../Display/Window/display_window_description.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/GL/opengl_wrap.h
+1294095610 /usr/local/include/ClanLib-2.2/ClanLib/GL/opengl_wrap.h
 	"opengl.h"
 	"opengl_defines.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/GL/setup_gl.h
+1294095610 /usr/local/include/ClanLib-2.2/ClanLib/GL/setup_gl.h
 	"api_gl.h"
 
-1294014938 /usr/local/include/ClanLib-2.2/ClanLib/GL/opengl_graphic_context.h
+1294095610 /usr/local/include/ClanLib-2.2/ClanLib/GL/opengl_graphic_context.h
 	"api_gl.h"
 	"../Core/System/sharedptr.h"
 	"../Display/Render/graphic_context.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/application.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/application.h
 	"App/clanapp.h"
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/App/clanapp.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/App/clanapp.h
 	"api_app.h"
 	"../Core/Text/string_types.h"
 	<vector>
 
-1294014935 /usr/local/include/ClanLib-2.2/ClanLib/App/api_app.h
+1294095604 /usr/local/include/ClanLib-2.2/ClanLib/App/api_app.h
+
+1294129853 source:/home/jason/projects/codeblocks/FourEx/src/fourex.cpp
+	"include.h"
+	"fourex.h"
+
+1294123907 /home/jason/projects/codeblocks/FourEx/src/include.h
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+
+1294129581 /home/jason/projects/codeblocks/FourEx/src/fourex.h
+	"include.h"
+
+1294124371 source:/home/jason/projects/codeblocks/FourEx/src/include.cpp
+	"include.h"
+
+1294125488 source:/home/jason/projects/codeblocks/FourEx/src/main.cpp
+	"fourex.h"
+	"include.h"
+	"main.h"
+
+1294124769 /home/jason/projects/codeblocks/FourEx/src/main.h
+	"include.h"
 
