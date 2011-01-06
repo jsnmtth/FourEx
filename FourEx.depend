@@ -1520,9 +1520,10 @@
 
 1294095604 /usr/local/include/ClanLib-2.2/ClanLib/App/api_app.h
 
-1294129853 source:/home/jason/projects/codeblocks/FourEx/src/fourex.cpp
+1294207775 source:/home/jason/projects/codeblocks/FourEx/src/fourex.cpp
 	"include.h"
 	"fourex.h"
+	"gamemenu.h"
 
 1294123907 /home/jason/projects/codeblocks/FourEx/src/include.h
 	<ClanLib/core.h>
@@ -1543,4 +1544,11 @@
 
 1294124769 /home/jason/projects/codeblocks/FourEx/src/main.h
 	"include.h"
+
+1294208869 /home/jason/projects/codeblocks/FourEx/src/gamemenu.h
+	"include.h"
+
+1294208859 source:/home/jason/projects/codeblocks/FourEx/src/gamemenu.cpp
+	"include.h"
+	"gamemenu.h"
 

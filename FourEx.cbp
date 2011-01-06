@@ -56,6 +56,8 @@
 		<Unit filename="README" />
 		<Unit filename="src/fourex.cpp" />
 		<Unit filename="src/fourex.h" />
+		<Unit filename="src/gamemenu.cpp" />
+		<Unit filename="src/gamemenu.h" />
 		<Unit filename="src/include.cpp" />
 		<Unit filename="src/include.h" />
 		<Unit filename="src/main.cpp" />

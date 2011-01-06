@@ -17,14 +17,14 @@ Copyright (C) 2011  Jason Ramsey <jramsey@openkettle.com>
 */
 #include "include.h"
 #include "fourex.h"
-
+#include "gamemenu.h"
 
 
 
     void fourEx::run()
     {
         windowsize[0]=1024;
-        windowsize[1]=400;
+        windowsize[1]=680;
         quit = false;
         ingame=false;
 
@@ -32,6 +32,7 @@ Copyright (C) 2011  Jason Ramsey <jramsey@openkettle.com>
         CL_Slot slot_quit = window.sig_window_close().connect(this, &fourEx::on_window_close);
         CL_GraphicContext gc = window.get_gc();
         CL_InputDevice keyboard = window.get_ic().get_keyboard();
+        gamemenu gameMenu();
 
         while (!quit)
         {
