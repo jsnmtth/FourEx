@@ -15,9 +15,9 @@ Copyright (C) 2011  Jason Ramsey <jramsey@openkettle.com>
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#include "include.h"
-#include "fourex.h"
-#include "gamemenu.h"
+#include "include.hpp"
+#include "fourex.hpp"
+#include "gamemenu.hpp"
 
 
 

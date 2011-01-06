@@ -16,4 +16,4 @@ Copyright (C) 2011  Jason Ramsey <jramsey@openkettle.com>
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "include.h"
+#include "include.hpp"

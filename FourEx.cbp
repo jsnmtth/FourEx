@@ -52,8 +52,6 @@
 			<Add library="X11" />
 			<Add directory="/usr/local/lib" />
 		</Linker>
-		<Unit filename="LICENSE" />
-		<Unit filename="README" />
 		<Unit filename="src/fourex.cpp" />
 		<Unit filename="src/fourex.h" />
 		<Unit filename="src/gamemenu.cpp" />

@@ -1,0 +1,35 @@
+commit 89ba5ba1c6010a0db3b464dc127eee3ecb64139a
+Author: Jason Ramsey <jramsey@openkettle.com>
+Date:   Wed Jan 5 20:36:41 2011 -0800
+
+    Begin to seporate out the Game Menu system
+
+commit cf9e1fd1b6875b360670c8466d69f4f630347ce3
+Author: Jason Ramsey <jramsey@openkettle.com>
+Date:   Tue Jan 4 00:33:45 2011 -0800
+
+    Seporate Project into modules with headers
+    
+    Clean up code and start building menu UI.
+
+commit 3e9e912a3efb3439a258f2acbf6e49261b50de12
+Author: Jason Ramsey <jramsey@openkettle.com>
+Date:   Mon Jan 3 15:16:12 2011 -0800
+
+    Add License Information, Move the source file
+    
+    Add LICENSE File for GPL3
+    Add GPL3 Notice to source file
+    Move Source file to src directory
+
+commit 06ae8081789036ce30457a1c7ba06c8f4a27fa0f
+Author: Jason Ramsey <jason@jason-Compaq-Presario-CQ60-Notebook-PC.(none)>
+Date:   Mon Jan 3 15:02:51 2011 -0800
+
+    Add readme with Ubuntu 10.10 Compile Instructions
+
+commit f8d7a7d4ca4fe828c835f396194ba4b3e85865f0
+Author: Your Name <jramsey@openkettle.com>
+Date:   Mon Jan 3 10:50:17 2011 -0800
+
+    Initial Commit of base appication and test code

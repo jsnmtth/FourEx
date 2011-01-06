@@ -18,13 +18,13 @@ Copyright (C) 2011  Jason Ramsey <jramsey@openkettle.com>
 
 #pragma once
 
-#include "include.h"
+#include "include.hpp"
 
-class Program
+class gamemenu
 {
 public:
-    static int main(const std::vector<CL_String> &args);
+gamemenu();
+private:
+
 
 };
-
-

@@ -1,0 +1,36 @@
+autoscan: warning: missing AC_HEADER_STDBOOL wanted by: 
+	src/fourex.cpp:91
+	src/fourex.cpp:93
+	src/fourex.cpp:94
+	src/fourex.h:26
+	src/fourex.h:27
+	src/fourex.h:28
+	src/fourex.h:29
+	src/fourex.h:52
+	src/fourex.cpp:28
+	src/fourex.cpp:29
+	src/fourex.cpp:47
+	src/fourex.cpp:53
+	src/fourex.cpp:93
+	src/fourex.cpp:94
+	src/fourex.cpp:43
+	src/fourex.cpp:45
+	src/fourex.cpp:48
+	src/fourex.cpp:52
+	src/fourex.cpp:60
+	src/fourex.cpp:64
+	src/fourex.cpp:67
+	src/fourex.cpp:71
+	src/fourex.cpp:100
+	src/fourex.cpp:101
+	src/fourex.cpp:102
+	src/fourex.cpp:103
+	src/fourex.cpp:104
+	src/fourex.cpp:151
+autoscan: warning: missing AC_PREREQ wanted by: 
+	autoscan
+autoscan: warning: missing AC_PROG_CC wanted by: 
+	src/include.h
+	src/main.h
+	src/fourex.h
+	src/gamemenu.h
